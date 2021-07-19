@@ -1,0 +1,98 @@
+*{
+	
+	padding:0;
+	font-family:arial;
+}
+.top{
+
+	margin:auto;
+	width:80%
+}
+.above{
+		margin:0;
+	display:flex;
+	
+}
+.above .left{
+	margin:15px;
+	width:60%;
+	position:relative;
+	cursor:pointer;
+}
+.above .right{
+	margin:15px;
+	width:40%;
+	position:relative;
+	cursor:pointer;
+}
+.title:hover{
+	color:orange;
+}
+.list p:hover{
+	color:orange;
+}
+
+.above img{
+	width:100%;
+	height:350px;
+}
+.title{
+	position:absolute;
+	bottom:0;
+	color:white;
+	font-size:25px;
+	box-sizing:border-box;
+	margin:10px;
+	font-weight:bold;
+	background-color: rgba(0,0,0, 0.6);
+}
+.list{
+	width:25%;
+	margin:15px;
+	cursor:pointer;
+}
+.below{
+	display:flex;
+}
+.article{
+	list-style-type:none;
+	margin:10px ;
+
+	cursor:pointer;
+	display:flex;
+	border-top:1px solid #cfcfb0;
+	padding-top:20px;
+
+}
+.news-left ul li img{
+	height:150px;
+	width:175px;
+	margin-right:0px;
+}
+.pr{
+	margin:10px;
+	
+}
+.news-left{
+
+	width:60%;
+}
+.middle{
+	display:flex;
+}
+.article2{
+	list-style-type:none;
+	margin:10px 20px 0 20px;
+	background-color:#e2e2d0;
+	cursor:pointer;
+	display:flex;
+	justify-content:space-between;
+}
+.trailer ul li img{
+	height:100px;
+	width:120px;
+	margin-right:0px;
+}
+.article div:hover{
+	color:orange;
+}

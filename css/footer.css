@@ -1,0 +1,62 @@
+.footer-body{
+	position: relative;
+	width: 100%;
+	display:flex;
+	padding-top:30px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 16px;
+	justify-content: center;
+	list-style:none;
+	text-decoration: none;
+	background-color:#EDEAEA;
+}
+.footer-body ul {
+	padding-left: 0px;
+
+}
+.footer-body ul li {
+	margin-left: 20px;
+	margin-right: 40px;
+	list-style: none;
+
+}
+.footer-body ul li a{
+	text-decoration: none;
+	color:#428bca;
+	cursor: pointer;
+}
+.footer-body ul li a:hover{
+	color: dodgerblue;
+	text-decoration-line: none;
+}
+.footer-top{
+	padding: 30px 0px !important;
+    border-bottom: thin solid #b3b2b2;
+	border-top: thin solid #b3b2b2;
+	background-color: #E1E1E1;
+}
+.row{
+	max-width: 980px;
+	padding: 0;
+	margin-left: auto;
+    margin-right: auto;
+	display: flex;
+	flex-direction: row;
+
+}
+.footer-top-container{
+	width: 25%; 
+}
+.btn-danger{
+	padding: 2px 2px 2px 2px;
+	text-align: left;
+	border: 1px solid #279cff;
+    border-radius: 4px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	text-decoration: none;
+}
+
+.btn-danger:hover{
+	background-color: #279cff;
+	color: aliceblue
+}
